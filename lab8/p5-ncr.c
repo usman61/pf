@@ -21,7 +21,7 @@ int factorial(int value){
    for (int i=value;i>1; i--){
       fact*=i;
    }
-   return fact/;
+   return fact;
 } 
 // this ftn would calc ncr it takes two argument n & r
 
