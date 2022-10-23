@@ -31,16 +31,7 @@ int main()
     else if (op==4)
     printf("Division :%d\n",no1/no2);
    
-    // if(opt=='+'){
-    // ans = no1 + no2;
-    // printf("Addtion :%d\n",ans);
-    // }
-    // else if (opt=='-')
-    // printf("Subtraction :%d\n",(no1-no2));
-    // else if (opt=='*')
-    // printf("Product :%d\n",no1*no2);
-    // else if (opt=='/')
-    // printf("Division :%d\n",no1/no2);
+    
 
 
     printf("do you want to continue (y,n):");

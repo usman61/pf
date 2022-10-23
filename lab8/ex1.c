@@ -1,21 +1,18 @@
-// C program to illustrate nested-if statement
+// Positive integers 1,2,3...n are known as natural numbers
 #include <stdio.h>
+int sumtill_n(int n){
+if(n<1)
+return 0;
+else
+return n+sumtill_n(n-1);
+}
 int main()
 {
-   int i = 10;
- 
-   if (i > 0) {
-       // Nested - if statement
-       // Will only be executed if statement above
-       // is true
-       if (i < 15)
-           printf("i is smaller than 15\n");
-       else
-           printf("i is greater than 15\n");
-   }
-   else
-      printf("i is smaller than 0\n");
- 
-   return 0;
-}
+int n,sum=0;
+printf("Enter a positive integer: ");
+scanf("%d",&n);
+sum =sumtill_n(n);
+printf("Sum: %d\n",sum);
+return 0;
 
+}

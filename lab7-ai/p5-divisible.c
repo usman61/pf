@@ -6,7 +6,7 @@ int main()
    while(count<10){
       if (n%3==0 && n%5==0){
    printf("Number: %d\n",n);
-         sum+=n;
+        sum+=n ;
       count++;
       }
       

@@ -1,9 +1,14 @@
-// C program to Demonstrate the need of loops
 #include <stdio.h>
 int main()
 {
-    for (int i=0; i<5; i++){
-        printf("Hello World\n");
-    }
-	return 0;
+int num, count, sum = 1;
+printf("Enter a positive integer: ");
+scanf("%d", &num);
+// for loop terminates when num is less than count
+for(count = 1; count <= num; ++count)
+{
+sum *= count;
+}
+printf("Sum = %d", sum);
+return 0;
 }

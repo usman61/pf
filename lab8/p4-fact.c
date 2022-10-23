@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-   int n,sum=0;
+   int n,fact=1;
    printf("Enter n: ");
    scanf("%d",&n);
-   for(int i=1; i<=n; i++){
-    sum+=i;
+   for(int i=n; i>1; i--){
+    fact*=i;
    }   
    
-   printf("Sum: %d\n",sum);
+   printf("Factorial: %d\n",fact);
 
 
   
