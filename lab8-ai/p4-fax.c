@@ -27,4 +27,6 @@ int main()
     cost = fax_cost(pages);
     printf("Cost : %.2f",cost);
     
+
+    printf("Hellow rold");
 }
