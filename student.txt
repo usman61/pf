@@ -1,0 +1,6 @@
+
+Name: ali 
+Marks=45 
+
+Name: khan 
+Marks=213 
